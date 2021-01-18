@@ -45,12 +45,11 @@ namespace ASCIIpe_the_room
             writingOnTheWall[2][2] = "touch this.";
 
             int rI;
-            Random RNG = new();
-            rI = RNG.Next(1, 3);
-
+            int rX, rY;
             int rA, rB, rC;
 
-            int rX, rY;
+            Random RNG = new();
+            rI = RNG.Next(1, 3);
             rX = RNG.Next(3, 10);
             rY = RNG.Next(3, 7);
 
@@ -61,7 +60,8 @@ namespace ASCIIpe_the_room
             Direction startRoomDoor;
             if (rI == 1)
             { startRoomDoor = Direction.East; }
-            else { startRoomDoor = Direction.South; }
+            else
+            { startRoomDoor = Direction.South; }
 
             Room startRoom = new()
             {
@@ -76,11 +76,9 @@ namespace ASCIIpe_the_room
                 for (int y = 0; y < dungeon.Rooms.GetLength(1); y++)
                 {
                     if (x == 0 && y == 0)
-                    {
-                        dungeon.Rooms[x, y] = startRoom;
-                    }
+                    { dungeon.Rooms[x, y] = startRoom; }
                     else
-                    {//New Room with Random Doors !!Some Rooms may not be accessable in current configuration!!
+                    {//New Room with Random Doors !!Some Rooms may not be accessable in current configuration. ie. not always solvable!!
                         rI = RNG.Next(11, 15);
                         Direction[] dirs;
                         dirs = IntToDirections(rI);
@@ -91,8 +89,8 @@ namespace ASCIIpe_the_room
 
                         dungeon.Rooms[x, y] = new()
                         {
-                            Description = new string("Theres some writing on the wall... " + "''" +
-                            writingOnTheWall[0][rA] + writingOnTheWall[1][rB] + writingOnTheWall[2][rC] + "''"),
+                            Description = new string("Theres some writing on the wall... " + "\"" +
+                            writingOnTheWall[0][rA] + writingOnTheWall[1][rB] + writingOnTheWall[2][rC] + "\""),
                             Doors = new(),
                             OpenedDoors = new(),
                             HasVisited = false
@@ -196,7 +194,7 @@ namespace ASCIIpe_the_room
         /// <summary>
         /// Waits for user input and then issues the appropriate command.
         /// </summary>
-        /// <param name="dungeon">Map</param>
+        /// <param name="dungeon">Dungeon</param>
         /// <param name="playerPos">Player Position</param>
         public static void Input(Dungeon dungeon, PlayerPosition playerPos)
         {

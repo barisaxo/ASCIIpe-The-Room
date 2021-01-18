@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/b/Desktop/Asborn lessons/ASCIIpe the room/ASCIIpe the room.csproj",
+      "projectUniqueName": "/Users/b/Desktop/Asborn lessons/ASCIIpe the room/ASCIIpe-The-Room/ASCIIpe the room.csproj",
       "projectName": "ASCIIpe the room",
-      "projectPath": "/Users/b/Desktop/Asborn lessons/ASCIIpe the room/ASCIIpe the room.csproj",
+      "projectPath": "/Users/b/Desktop/Asborn lessons/ASCIIpe the room/ASCIIpe-The-Room/ASCIIpe the room.csproj",
       "packagesPath": "/Users/b/.nuget/packages/",
-      "outputPath": "/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/",
+      "outputPath": "/Users/b/Desktop/Asborn lessons/ASCIIpe the room/ASCIIpe-The-Room/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/b/.nuget/NuGet/NuGet.Config"
