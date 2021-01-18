@@ -1,0 +1,15 @@
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/bin/Debug/net5.0/ASCIIpe the room.deps.json
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/bin/Debug/net5.0/ASCIIpe the room.runtimeconfig.json
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/bin/Debug/net5.0/ASCIIpe the room.runtimeconfig.dev.json
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/bin/Debug/net5.0/ASCIIpe the room.dll
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/bin/Debug/net5.0/ref/ASCIIpe the room.dll
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/bin/Debug/net5.0/ASCIIpe the room.pdb
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.csprojAssemblyReference.cache
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.GeneratedMSBuildEditorConfig.editorconfig
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.AssemblyInfoInputs.cache
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.AssemblyInfo.cs
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.csproj.CoreCompileInputs.cache
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.dll
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ref/ASCIIpe the room.dll
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.pdb
+/Users/b/Desktop/Asborn lessons/ASCIIpe the room/obj/Debug/net5.0/ASCIIpe the room.genruntimeconfig.cache
